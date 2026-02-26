@@ -26,5 +26,5 @@ social: true  # includes social icons at the bottom of the page
 <br>
 ## 报告
 <div class="projects">
-  {% 1_project.md %}
+  {% 1_project.html %}
 </div>
