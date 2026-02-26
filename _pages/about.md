@@ -4,7 +4,7 @@ ref: home
 layout: about
 title: 主页
 permalink: /
-subtitle: 暢之之的主页
+subtitle: Hi friend! Welcome to the Moon, Mars, and Beyond
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>changzhijiang528@gmail.com</p>
-    <p>北京市怀柔区怀北镇雁栖湖东路1号</p>
+    <p>北京市怀柔区怀北镇雁栖湖东路1号中国科学院大学</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
