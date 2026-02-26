@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 项目
+title: 报告
 permalink: /projects/
 lang: zh
-ref: projects
+ref: reports
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
