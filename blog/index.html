@@ -38,7 +38,10 @@ pagination:
   {% endif %}
 
   <ul class="post-list">
-    {% for post in paginator.posts %}
+   {% assign curr_lang = page.lang | default: "zh" %}
+{% for post in paginator.posts %}
+  {% assign post_lang = post.lang | default: "zh" %}
+  {% if post_lang == curr_lang %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -94,7 +97,8 @@ pagination:
     </p>
     </li>
 
-    {% endfor %}
+  {% endif %}
+{% endfor %}
   </ul>
 
   {% include pagination.html %}
