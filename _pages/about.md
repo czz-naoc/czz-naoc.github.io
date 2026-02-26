@@ -11,9 +11,9 @@ profile:
   image: jcz.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>联系电话：18211303053</p>
+    <p>邮箱：changzhijiang528@gmail.com</p>
+    <p>通讯地址：北京市怀柔区怀北镇怀北庄380号中国科学院大学</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
