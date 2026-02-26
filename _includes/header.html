@@ -59,13 +59,15 @@
 
           {% if site.blog_nav_title %}
           <!-- Blog -->
-          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link"
-               href="{% if curr_lang == 'en' %}{{ '/en/blog/' | relative_url }}{% else %}{{ '/blog/' | relative_url }}{% endif %}">
-              {{ site.blog_nav_title }}
-            </a>
-          </li>
-          {% endif %}
+<li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+  <a class="nav-link" href="{% if curr_lang == 'en' %}{{ '/en/blog/' | relative_url }}{% else %}{{ '/blog/' | relative_url }}{% endif %}">
+    {{ site.blog_nav_title[curr_lang] }}
+    {%- if page.url contains 'blog' -%}
+    <span class="sr-only">(current)</span>
+    {%- endif -%}
+  </a>
+</li>
+{% endif %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "nav_order" %}
