@@ -165,7 +165,7 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
-  projects:
+  news:
     defaults:
       layout: post
     output: true
