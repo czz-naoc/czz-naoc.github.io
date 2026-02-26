@@ -1,6 +1,8 @@
 ---
+lang: zh
+ref: home
 layout: about
-title: about
+title: 主页
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
