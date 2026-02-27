@@ -174,10 +174,11 @@ collections:
     output: true
     permalink: /projects/:path/
 
- projects:
-  enabled: false
- scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+projects:
+  enabled: true       # 注意：必须改为 true，且紧贴左边，没有空格
+  scrollable: true
+  limit: 5
+
 
 latest_posts:
   enabled: true
