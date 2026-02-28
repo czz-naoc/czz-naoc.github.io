@@ -4,7 +4,6 @@ permalink: /publications/
 title: 发表
 lang: zh
 ref: publications
-description:
 years: [2026, 2025, 2024]
 nav: true
 nav_order: 1
