@@ -11,7 +11,7 @@ related_posts: false
 <!-- 插入单张照片 -->
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/0927.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="/assets/img/0927.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
