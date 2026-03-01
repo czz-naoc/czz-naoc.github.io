@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 报告
+title: 项目
 permalink: /projects/
 lang: zh
 ref: reports
-description: A growing collection of your cool projects.
+description: 一些正经/业余研究项目
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [主要研究内容, 业余学习内容]
 horizontal: false
 ---
 
