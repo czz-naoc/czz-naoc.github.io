@@ -119,7 +119,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: 不完整版生活碎片拼图 # blog_name will be displayed in your blog page
-blog_nav_title: zh: 生活
+blog_nav_title: 
+  zh: 生活
 blog_description: 一片海，一行字，杂记注脚
 permalink: /blog/:year/:title/
 
