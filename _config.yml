@@ -118,11 +118,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: 暢之之的随笔 # blog_name will be displayed in your blog page
-blog_nav_title:
-  zh: 随笔
-  en: Blog 
-blog_description: a simple whitespace theme for academics
+blog_name: 不完整版生活碎片拼图 # blog_name will be displayed in your blog page
+blog_nav_title: 生活
+blog_description: 一片海，一行字，杂记注脚。
 permalink: /blog/:year/:title/
 
 # Pagination
