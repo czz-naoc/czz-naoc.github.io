@@ -268,8 +268,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Jiang, 蒋]
-  first_name: [Changzhi, C.]
+  last_name: [Jiang]
+  first_name: [Changzhi]
 
   style: apa
   locale: en
