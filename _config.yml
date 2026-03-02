@@ -173,7 +173,7 @@ collections:
 
 news:
   enabled: true
-  scrollable: true # 如果超过3条，是否显示垂直滚动条（true为显示，false为隐藏并只显示3条）
+  scrollable: false # 如果超过3条，是否显示垂直滚动条（true为显示，false为隐藏并只显示3条）
   limit: 3         # 这里才是真正控制主页显示数量的地方
 
 projects:
