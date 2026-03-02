@@ -169,6 +169,7 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+    limit: 3 
   projects:
     output: true
     permalink: /projects/:path/
