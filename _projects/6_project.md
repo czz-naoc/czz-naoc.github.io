@@ -2,7 +2,7 @@
 layout: page
 title: 基于液晶电光效应的光学混沌系统构建
 description: 混沌运动是非线性系统的典型行为，是一种复杂、不可预测的动态行为，通常表现为似乎无规律的波动或振荡。
-img: /assets/img/illustration/butterfly.jpg
+img: /assets/img/chaos/chaos.png
 importance: 2
 category: 学习内容
 ---
