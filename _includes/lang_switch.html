@@ -4,7 +4,7 @@
   {% assign label = "中文" %}
 {% else %}
   {% assign target_lang = "en" %}
-  {% assign label = "EN" %}
+  {% assign label = "" %}
 {% endif %}
 
 {% assign alt = site.pages | where: "ref", page.ref | where: "lang", target_lang | first %}
