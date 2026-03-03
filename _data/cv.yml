@@ -64,57 +64,82 @@
 - title: 夏令营
   type: time_table
   contents:
-    - title: 中山大学行星科学夏令营
-      institution: 中山大学行星环境与宜居性研究实验室
+    - title: 中山大学行星科学夏令营，行星环境与宜居性研究实验室
       year: 2024.08
 
-    - title: 中国科学技术大学地球与行星物理夏令营
-      institution: 中国科学技术大学地球与空间科学学院
+    - title: 中国科学技术大学地球与行星物理夏令营，地球与空间科学学院
       year: 2024.07
 
     - title: 中国科学院国家天文台大学生夏令营
-      institution: 中国科学院国家天文台
       year: 2024.07
 
     - title: 南京大学深空探测科学与技术研究院夏令营
-      institution: 南京大学深空探测科学与技术研究院
       year: 2024.07
 
     - title: 南京大学天文与空间科学学院夏令营
-      institution: 南京大学天文与空间科学学院
       year: 2024.07
 
-- title: Open Source Projects
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 雷达探测火星天问一号着陆区地下水
+      institution: 高等研究院科研培育项目
+      year: 2024.06 - 2025.05
+      description: 主持
 
-- title: Honors and Awards
+    - title: 基于月球与行星探测工程雷达载荷对地外天体地质结构的研究
+      institution: 国家级大学生创新创业训练计划项目（重点支持领域项目）
+      year: 2024.06 - 2025.05
+      description: 排位一
+
+    - title: 天问二号任务小行星探地雷达地表和内部回波模拟
+      institution: 中国科学院大学生创新实践训练计划
+      year: 2023.08 - 2024.07
+      description: 主持
+
+    - title: 雷达探测地外天体与水冰资源研究
+      institution: 国家级大学生创新创业训练计划项目
+      year: 2023.06 - 2024.05
+      description: 主持
+
+    - title: 火星祝融号着陆区水冰雷达探测及其形成机制研究
+      institution: 深圳大学学生创新发展基金
+      year: 2023.03 - 2024.04
+      description: 主持
+
+
+- title: 荣誉
   type: time_table
   contents:
-    - year: 1921
+    - year: 博士期间奖学金/荣誉
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - 北京大学林桥奖学金一等奖
+        - 中国科学院国家天文台优秀论文报告奖
+        
+    - year: 本科期间代表性竞赛
       items: 
-        - Max Planck Medal
+        - 2023 美国大学生数学建模竞赛 Finalist (特等奖提名，全球1%)，队长
+        - 2023 全国大学生物理实验竞赛（创新）全国二等奖，队长
+        
+    - year: 本科期间奖学金
+      items:         
+        - 荔园之星奖学金 (2024)
+        - 拔尖创新人才奖学金 (2022, 2023, 2024)
+        - 公益之星奖学金 (2022, 2023, 2024)
+        - 双创之星奖学金 (个人 2024，团体 2023, 2024)
+        - 优秀学生干部奖学金 (2023)
+        - 全额奖学金 (2021)
+        - 优秀共产党员 (2024, 2025)
+        - 优秀共青团员 (2021, 2022, 2023)
+        - 深圳大学优秀志愿者 (2022)
 
-- title: Academic Interests
+- title: 研究兴趣
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: 月球与火星雷达探测
+    - title: 行星宜居性研究
 
-- title: Other Interests
+- title: 爱好
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - 🐶 ✍️ 🎨 🎸 📹 🏋️ 🏂 ⛳ 🚶 🏃‍♂️ 🚴‍♀️ 🏀 🏓 🀄 etc.
