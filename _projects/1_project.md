@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 1
+title: 天问一号雷达探测火星当前浅表层水活动
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
-category: work
-selected: true
+category: 研究工作
 ---
+### 📅 项目状态
+**Manuscript Under Review** (Jiang et al., 2024)
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### 🚀 项目背景 (Background)
+火星曾被认为拥有广阔的液态水环境，但现今的火星环境极度干旱寒冷。目前主流观点认为水资源主要以冰的形式锁定在极地。然而，来自“天问一号”任务的最新探索提供了新的线索。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+本项目基于中国首个火星探测任务“天问一号”及“祝融号”火星车（Zhurong Rover）在乌托邦平原南部（Utopia Planitia）的巡视探测数据，旨在探寻火星浅表层是否存在尚未被发现的水活动证据。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 🛠️ 研究方法 (Methodology)
+本研究采用了多源数据融合分析的方法，结合了地球物理学与热物理学模型：
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+1.  **原位雷达探测**：利用“祝融号”搭载的探地雷达（RoPeR）高频通道（CH-2）数据，穿透火星地表，获取了约 1921 米路径上的高分辨率次表层结构信息。
+2.  **介电特性反演**：通过分析雷达信号的衰减特性，我们反演了地下物质的**损耗角正切（Loss Tangent）**。这是一种对水分和温度极其敏感的物理参数。
+3.  **热对流模拟**：结合火星气象站（MCS）记录的表面温度数据，我们建立了**SHAW（Simultaneous Heat and Water）模型**，模拟了在有/无液态卤水参与下的地下热传递过程。
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+### 💡 核心发现 (Key Findings)
+通过对雷达数据与温度数据的相关性分析，我们观察到了一个显著的物理现象：
 
+*   **温度依赖性**：在地下约 2-5 米的深度范围内，地下物质的损耗角正切值表现出显著的温度依赖性。
+*   **相变临界点**：数据表明，当温度升高至特定阈值（约 239K）以上时，介电损耗显著增加。这与**卤水冰（Brine Ice）**融化为**液态卤水（Liquid Brine）**的物理特性高度吻合。
+*   **热对流机制**：这一现象表明，在火星的春夏季节，太阳辐射的热量不仅仅通过热传导（Conduction）向下传递，更可能通过**液态卤水的热对流（Thermal Convection）**作用，将热量输送至地下深处。
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### 🌌 科学意义 (Significance)
+这项研究挑战了火星浅表层（<5米）完全干燥或仅冻结的传统认知。
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+*   **当前的水循环**：这表明在现今的火星气候条件下，低纬度地区（如乌托邦平原）的地下浅层可能仍存在活跃的**卤水昼夜相变循环**。
+*   **地质演化**：地下水的毛细作用和相变过程可能持续影响着火星的地表地貌与地质结构。
+*   **未来探索**：这一发现为未来火星生命探测及原位资源利用（ISRU）提供了重要的目标区域和理论支持。
