@@ -8,7 +8,7 @@ description: 一些正经/业余研究项目
 nav: true
 nav_order: 2
 display_categories: [研究工作, 学习内容]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
