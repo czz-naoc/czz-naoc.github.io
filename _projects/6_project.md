@@ -31,9 +31,6 @@ category: 学习内容
         {% include figure.html path="assets/img/chaos/1.png" title="液晶盒内部结构示意图" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    图 1：扭曲向列相液晶盒内部结构。
-</div>
 
 #### 液晶的电光效应
 液晶电光效应是指对液晶盒导电层施加外界电场时，液晶分子的长轴会重新排列，趋向于与电场方向平行。如图 2 所示，当自然光通过第一层偏振膜后变成线偏振光，经过液晶分子后发生旋光效应。
@@ -42,9 +39,6 @@ category: 学习内容
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/chaos/2.png" title="液晶分子受电场调控示意图" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    图 2：液晶分子的旋光效应及电场调制。
 </div>
 
 ### 2. 液晶光学混沌系统设计
@@ -56,9 +50,6 @@ category: 学习内容
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/chaos/4.png" title="实验装置光路图" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    图 4：实验系统光路结构。
 </div>
 
 #### 反馈电压设计
@@ -85,17 +76,11 @@ $$ \begin{cases} I_{\text{out}} = I_{\text{in}} \left|\begin{array}{c} \cos \bet
         {% include figure.html path="assets/img/chaos/5.png" title="周期态计算机仿真结果" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    图 5：周期态仿真结果（含时序图、相图与频谱）。
-</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/chaos/6.png" title="混沌态计算机仿真结果" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    图 6：双吸引子混沌态仿真结果。
 </div>
 
 ### 2. 液晶电光效应机理探究
@@ -106,9 +91,6 @@ $$ \begin{cases} I_{\text{out}} = I_{\text{in}} \left|\begin{array}{c} \cos \bet
         {% include figure.html path="assets/img/chaos/7.png" title="时间响应曲线" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    图 7：液晶对电压信号的时间响应。
-</div>
 
 在直流电压驱动下，不同温度下的输出光强形态如图 8 所示。可以发现，在 $$ 25^\circ\mathrm{C} $$ 和 $$ 48^\circ\mathrm{C} $$ 下，液晶的回弹速率和振荡幅度表现出明显差异。
 
@@ -116,9 +98,6 @@ $$ \begin{cases} I_{\text{out}} = I_{\text{in}} \left|\begin{array}{c} \cos \bet
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/chaos/8.png" title="直流驱动下的电光曲线" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    图 8：不同电压间隔与温度下的光强振荡。
 </div>
 
 ### 3. 光学混沌状态分析
@@ -131,9 +110,6 @@ $$ \begin{cases} I_{\text{out}} = I_{\text{in}} \left|\begin{array}{c} \cos \bet
         {% include figure.html path="assets/img/chaos/13.png" title="双周期态结果" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    图 13：双周期态相图与频谱。
-</div>
 
 #### 混沌态
 当反馈电压与输入光强在振荡区间耦合时，系统进入混沌态。相图中运动轨迹局部不稳定，但全局拘束在双稳态区域内（图 15）。
@@ -142,9 +118,6 @@ $$ \begin{cases} I_{\text{out}} = I_{\text{in}} \left|\begin{array}{c} \cos \bet
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/chaos/15.png" title="混沌态实验结果" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    图 15：混沌态的时序图与吸引子相图。
 </div>
 
 ## 讨论与未来展望
