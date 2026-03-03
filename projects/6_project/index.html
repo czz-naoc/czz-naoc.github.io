@@ -250,25 +250,32 @@
 
           <article>
             <blockquote>
-  <p>此章用以回顾 2023 年暑期参加大物实验建立的光学混沌模型，感谢叉歪和 lucky 的鼎力合作才使得这个项目顺利完成。同时感谢赵改清老师和 206 实验室的所有帮助，老赵带领的 206 团队百花齐放人才辈出。</p>
+  <p>此章用以回顾2023年暑期参加大物实验建立的光学混沌模型，感谢叉歪和lucky的鼎力合作才使得这个项目顺利完成。同时感谢赵改清老师和206实验室的所有帮助，老赵带领的206团队百花齐放人才辈出。</p>
 </blockquote>
 
 <h2 id="摘要">摘要</h2>
 
-<p>混沌运动是非线性系统的典型行为，是一种复杂、不可预测的动态行为，通常表现为似乎无规律的波动或振荡。液晶分子同时具有有序性和流动性，具备独特的电光双稳特性，是研究光学混沌的理想选择。液晶的电光效应是指液晶盒在受到外界电场的作用下，其光学性质发生改变。基于近代物理实验中的基础实验“液晶的电光效应”，本团队采用 \(40^\circ\) 扭曲向列相液晶盒，设计了一套用于深入研究液晶电光效应的复杂情况和光学混沌的实验仪器，构建了基于液晶本质特性的反馈公式和光学混沌系统的理论模型。通过计算机仿真模拟出周期态和混沌态的液晶光学性质，验证了所构建的光学混沌系统模型的有效性。</p>
+<p>混沌运动是非线性系统的典型行为，是一种复杂、不可预测的动态行为，通常表现为似乎无规律的波动或振荡。液晶分子同时具有有序性和流动性，具备独特的电光双稳特性，是研究光学混沌的理想选择。液晶的电光效应是指液晶盒在受到外界电场的作用下，其光学性质发生改变。基于近代物理实验中的基础实验“液晶的电光效应”，本团队采用40°扭曲向列相液晶盒，设计了一套用于深入研究液晶电光效应的复杂情况和光学混沌的实验仪器，构建了基于液晶本质特性的反馈公式和光学混沌系统的理论模型，通过计算机仿真模拟出周期态和混沌态的液晶光学性质。进而，我们利用该实验光路，深入研究了液晶在不同电压、温度下的电光效应和时间响应，发现了液晶具有弹性恢复能力和“光开关”的特性。与此同时，我们定量测量了液晶“光开关”的阈值电压和关断电压的数值，并且研究了产生混沌的电压和光强条件。我们还发现了温度对于液晶分子空间排列、弹性恢复力和双折射率的影响。最后，对比实验结果和计算机仿真结果，我们验证了所构建的光学混沌系统模型的有效性，并在将来有望建立线上实验平台进行实验推广。</p>
 
 <h2 id="引言">引言</h2>
 
-<p>液晶光学双稳性的研究始于 20 世纪后半叶。研究人员发现，当某些液晶系统受到外部光场的作用时，它们在相同的条件下会表现出两种稳定状态。自 1969 年 Seidel 和 Szöke 提出光学双稳态理论以来，该理论得到了完善的发展 [[1,2]]。Ikeda 等人在理论上指出光学双稳系统在失稳情况下可能出现混沌现象 [[3]]。</p>
+<p>液晶光学双稳性的研究始于20世纪后半叶。研究人员发现，当某些液晶系统受到外部光场的作用时，它们在相同的条件下会表现出两种稳定状态，这就是光学双稳态效应。过去几十年的研究中，已经取得了光学双稳与混沌领域的一系列重要成果。自1969年Seidel和Szöke提出光学双稳态理论以来，该理论得到了较为完善的发展，并且其应用也迅速推进，包括像差理论的发展如Seidel像素参数描述了不完美光学系统的光线成像中的各种偏差，以及高斯-赛德尔迭代方法，用于解决线性方程组等[[1,2]]。Ikeda等人在理论上指出光学双稳系统在失稳情况下可能出现混沌现象，引发了后人广泛的研究兴趣[[3]]。在实验物理上，Gibbs、Macall以及其它研究人员在光学系统中观察到了色散型光学双稳态现象，推动了纯光学双稳态研究以及混沌行为的应用方面的进展[[4]]。Arecchi于1972年探讨了相干态在量子光学中的应用，介绍了相干态的概念、产生方法以及与光学双稳态之间的关系，为理解光与物质相互作用的基本过程提供了重要的理论基础[[5]]。Bonifacio和Lugiato于1976年提出了半经典平均场理论[[6]]，用于解释吸收型的纯光学双稳态。</p>
 
-<p>随着进入 21 世纪，光学混沌在通信与信息处理等领域的应用日益受到关注。J. P. Toomey 在 2001 年提出利用混沌半导体激光器进行安全通信的方法 [[8]]。目前的研究人员越来越有兴趣将计算机技术与实验研究相结合，以更好地理解和预测液晶中光学双稳性和混沌的动力学。</p>
+<p>在我国液晶光学研究领域中，张洪钧院士发表的《光学混沌》一书系统地阐述了光学混沌的基本概念、产生机制以及应用方法[[7]]。他提出了通过在非线性环形腔中引入延时来产生混沌的方法，并指出全光学双稳系统观察混沌行为的条件较为苛刻，而混合型光学双稳系统则为研究双稳向混沌演化提供了更为便捷的途径。</p>
+
+<p>随着进入21世纪，光学混沌在通信与信息处理等领域的应用日益受到关注。光双稳性可以用于下一代显示技术、光开关和信息存储系统，因此人们也开始探索声光双稳、电光双稳等混合型双稳系统在光学双稳与混沌研究中的潜力。各类研究成果展示了光学混沌在安全通信、图像处理、密码学和随机数生成等方面的潜在应用价值。J. P. Toomey在2001年提出利用混沌半导体激光器进行安全通信的方法，通过利用激光器的混沌行为和非线性特性，实现了具有抗干扰和较强保密性能的通信系统[[8]]。A. L. Lewis研究了声光双稳系统中的动力学和混沌行为，通过分析和数值模拟揭示了声光双稳系统中可能出现的混沌现象，包括周期倍增、突变和分岔等[[9]]。这些研究结果对于了解声光双稳系统的稳定性和混沌行为具有重要意义。M. C. Soriano通过控制参数调节和反馈信号的设计，实现了对光电振荡器中混沌行为的控制和同步，为光学通信和信息处理的应用提供了新的思路和方法[[10]]。目前的研究人员越来越有兴趣将计算机技术与实验研究相结合，以更好地理解和预测液晶中光学双稳性和混沌的动力学。人们正在探索机器学习和其它数据驱动技术，因为它们有可能解开这些系统的复杂性。 而目前国际上配备了最先进的光子学工具的实验室已经能够直接可视化和量化液晶中的混沌模式和双稳态。</p>
+
+<p>液晶光学双稳与混沌的研究对于深入理解非线性光学现象、揭示液晶材料的性质以及推动光学器件的设计和优化具有重要意义。进一步探索光学双稳与混沌的物理机制以及其在通信与信息处理领域的应用，将为科学研究和技术创新提供新的视角和机遇。</p>
 
 <h2 id="实验原理与设计">实验原理与设计</h2>
 
-<h3 id="1-实验原理">1. 实验原理</h3>
+<h3 id="实验原理">实验原理</h3>
 
-<h4 id="液晶与扭曲向列相液晶盒">液晶与扭曲向列相液晶盒</h4>
-<p>液晶作为一种处于固液之间的相态，具有各向异性和弹性性质。本次实验采取的是 \(40^\circ\) 扭曲向列相液晶盒（TN-LC）。液晶盒的内部结构如图 1 所示：</p>
+<h4 id="液晶">液晶</h4>
+<p>液晶作为一种处于固液之间的相态，以其独特的理化特性和在显示技术中的广泛应用而闻名。特别是液晶的各向异性和弹性性质，引起了人们对液晶非线性光学的关注和研究，尤其对于其光学双稳性和混沌行为。液晶作为研究非线性光学的代表元件，具有独特的电光双稳性质，对温度和外电场的变化极为敏感，并且表现出晶体的双折射效应。液晶分子类似于单光轴晶体，具有双折射特性，其光轴通常沿着液晶分子的长轴方向。液晶分子在有序和流动状态之间存在着复杂的平衡态，并且还具有工作电压低、受光面积大、易于制备、易于控制和容易实现器件集成等优点，因此成为非线性光学研究的理想选择。</p>
+
+<h4 id="扭曲向列相液晶盒">扭曲向列相液晶盒</h4>
+<p>扭曲向列相液晶盒的上下两个基片的取向成一定扭转角度，液晶分子在两个基片之间成分层排列。在同一层内，液晶分子具有相同的取向，并与层面平行。由于分子间范德华力的作用，相邻层之间的分子取向逐渐发生变化，从而形成了扭曲向列相的排列方式。值得注意的是，扭曲角度在这种结构中是可以人为控制的（与胆甾相液晶不同，胆甾相液晶的螺距是不可控的）。扭曲向列相液晶盒的内部结构如图1所示[[11]]：</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -282,7 +289,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="液晶盒内部结构示意图" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 1" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -291,8 +298,9 @@
     </div>
 </div>
 
-<h4 id="液晶的电光效应">液晶的电光效应</h4>
-<p>液晶电光效应是指对液晶盒导电层施加外界电场时，液晶分子的长轴会重新排列，趋向于与电场方向平行。如图 2 所示，当自然光通过第一层偏振膜后变成线偏振光，经过液晶分子后发生旋光效应。</p>
+<p>以最为常见的90°扭曲向列相液晶盒为例，液晶盒两块玻璃板之间夹有向列相液晶，定向层相互垂直，液晶分子的排列从上电极方向排列逐步均匀地扭曲到下电极方向排列，整体扭曲了90°，均匀扭曲排列的结构具有光波导的功能。其中，当液晶盒上没有施加电场时，向列相液晶分子排列方向取决于其本身扭曲角度，如90°；当液晶盒上施加了电场，液晶分子会趋向于和电场方向保持平行。</p>
+
+<p>在扭曲向列排列的液晶中，入射光方向的扭转类似于旋光效应。如图2(a)(b)所示，当自然光通过液晶盒表面的第一层偏振膜时，它会变成线偏振光。线偏振光经过液晶分子的连续取向变化后，发生旋光效应，旋转角度与下表面的液晶分子长轴的取向相同[[16]]。而下表面的偏振膜镀层使得出射光仍然保持线偏振状态。在整个过程中，光的旋转角度等于两个基片之间的取向夹角。当给液晶加上外电场时，液晶分子的取向会受到电场的调制，从而液晶对线偏光的振动方向也会发生改变。由于液晶盒的另一面也有一个偏振膜，这导致透射光的强度也会随之改变。</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -306,7 +314,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="液晶分子受电场调控示意图" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 2" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -315,10 +323,51 @@
     </div>
 </div>
 
-<h3 id="2-液晶光学混沌系统设计">2. 液晶光学混沌系统设计</h3>
+<p>本次实验中，我们采取的是40°扭曲向列相液晶盒。然而40°扭曲向列相液晶盒和普遍采用的90°扭曲向列相液晶盒的本质是一样的，仅有扭曲角度方面的不同。然而我们采用非传统的扭曲角度液晶的原因是希望研究在正交偏振片下该液晶扭曲角度仍能部分透光情况下的光学行为。相对比而言研究难度更大但更可能观察到更为丰富的光学现象从而透析液晶的光学机理。</p>
+
+<h4 id="液晶的电光效应">液晶的电光效应</h4>
+<p>液晶电光效应是指对液晶盒导电层施加外界电场时，液晶分子会转动。在外电场的作用下，液晶分子的长轴会重新排列，趋向于与电场方向平行，因此可以通过外电场控制液晶层的双折射现象，称为液晶分子的“重新定向”。此时液晶的总折射率发生了变化，导致入射光线的偏振状态也发生变化。</p>
+
+<p>液晶的的电光效应是指液晶分子的排列可被电场调制，从而使液晶的透光率发生改变。液晶盒的玻璃基板内侧镀有一层透明电极，给电极连接上电源，外电场就会使液晶分子发生转动，转动过程中存在各种阻力，这个转动需要时间。所以液晶的透过率不是瞬时变化的,其间存在弛豫时间。且由于液晶盒玻璃基板内侧对液晶分子的锚定作用，液晶盒内接近上下表面的分子不易发生大幅度的转动，而中间的分子则较为灵活。所以可以想象，在施加~0V至阈值电压之间的电压时，液晶分子的旋光效应不会完全消失，而是会有部分会保留，如图2(b)所示。若光通过检偏器后，我们可以观察到偏振态的变化。</p>
+
+<p>南京大学的王思齐等人对不同取向扭曲向列相液晶盒电光效应中存在振荡现象做了相关研究，并得出结论，液晶盒上下表面的取向夹角度数越小，在阈值电压处的透过率曲线振荡约明显，且幅度，频率都比较大，相反，当液晶盒取向夹角度数越接近90°时，振荡现象越不明显[[12]]。该结论指出这是由于在上下表面取向夹角取小角度时出射光不能简单近似为线偏振光，上下表面取向夹角越小，出射光越接近椭圆偏振光[[12]]，而我们对光强的探测值取得实际上是某一方向上出射光的分量。若椭圆偏振光长轴发生摆动，则表现在电光效应图上则是阈值电压处透射率发生了振荡现象。</p>
+
+<p>该实验选用无偏振膜的40°扭曲向列相液晶盒。实验中经过用起偏器和检偏器测得液晶盒在无外置电压情况下，其上下基板之间的扭曲角度为40°。保持输入光强恒定不变，光线的透过率则可以通过输出光强体现，通过改变加载电压的条件,如直流，正弦波，正向锯齿波等等，来测得该40°取向扭曲向列相液晶盒的电光效应曲线。</p>
+
+<h4 id="液晶的光学双稳特性">液晶的光学双稳特性</h4>
+<p>液晶光学双稳特性是指在单一输入光强下，材料可以表现出两种稳定的光学状态，对应两个不同的输出光强，如图3所示。这个现象对于光交换和信息存储具有潜在的应用前景。输入光强从0开始增加的过程中，保持在相对较低的输出光强；当输入光强开始下降时，输出光强从相对较高的位置返回。这是由于一个光学双稳态装置具有透射光滞后于入射光的延迟回线特征。而光学双稳的关键特征就是在输入输出光强曲线中存在迟滞回线[[14]]。当输入强度增加时，输出强度保持一种状态，直到达到某一阈值。一旦超过阈值，输出强度迅速切换到另一状态。</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/chaos/3-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/chaos/3-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/chaos/3-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chaos/3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 3" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p>液晶电光双稳特性是基于液晶材料的非线性光学效应实现的，可以通过液晶分子排列与外电场的相互作用来理解。液晶分子是长而细的棒状有机分子，具有有序的排列结构。由于弱分子相互作用，这些分子可以向特定方向定向。在外部电场作用下，液晶分子的排列结构会发生改变，从而导致光学性质的变化。当外部电场的强度超过某个阈值时，液晶分子的排列会从一种稳定状态转变到另一种稳定状态。这两种状态对应着不同的光学性质。</p>
+
+<p>迟滞回线内部的闭环为双稳区。双稳区是系统表现出两个稳定输出状态的输入强度范围。这个范围是由材料的非线性响应、反馈机制和系统的运行参数决定的。双稳性通常发生在具有非线性光学响应的材料或系统中。这意味着输入光强和输出光强之间的关系不是简单的线性关系。在非线性材料中，折射率或吸收系数的变化取决于入射光的强度。在非线性介质中，折射率可以随着通过它的光的强度而变化。这种变化可能是由于各种非线性效应，如克尔效应，其中折射率随光强的平方而变化。</p>
+
+<h3 id="液晶光学混沌系统设计">液晶光学混沌系统设计</h3>
 
 <h4 id="仪器设计">仪器设计</h4>
-<p>实验装置如图 4 所示。激光经过偏振片 \(P_1\) 转变为线偏振光，再经过偏振片 \(P_2\) 改变入射光强 \(I_{\text{in}}\)，信号由光传感器采集。</p>
+<p>实验仪器包括：625nm红光激光器，P1、P2、P3是偏振片，M为40度扭曲向列相液晶盒，温控加热装置（Pi加热片和温控仪），驱动模块（包括电机、传动轮和履带）光传感器，光学平台，PASCO’850数据接口，计算机软件 PASCO’ s Capstone。</p>
+
+<p>本实验采用40°扭转角的扭曲向列相液晶盒作为核心的非线性光学元件去构成混合型电光双稳系统。实验装置如图4所示。出射的激光首先经过偏振片P1转变为线偏振光，再经过偏振片P2改变入射光强的大小,再通过分光棱镜将光路一分为二，一份到达光传感器2，采集到的信号标记为输入光强信号，另一路经过液晶盒后到达偏振片P3，最后由光传感器1采集信号，并将其标记为输出光强。液晶盒受偏置电压V的调制。</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -332,7 +381,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="实验装置光路图" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/4.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 4" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -342,23 +391,64 @@
 </div>
 
 <h4 id="反馈电压设计">反馈电压设计</h4>
-<p>定义光强透过率 \(T_{\lambda}\) 为：
+<p>定义光强透过率 \(T_{\lambda}\) 为:
 \(T_{\lambda} = \frac{I_{\text{out}}}{I_{\text{in}}} = f(V)\)</p>
 
-<p>设计反馈电压迭代公式：
+<p>其中 \(\lambda\) 为光的波长，为定值；\(I_{\text{out}}\) 为输出光强，\(I_{\text{in}}\) 为输入光强，\(V\) 为加载在液晶盒上的电压。</p>
+
+<p>我们定义透射率是关于电压的一个函数，假设 \(V\) 与 \(I_{\text{out}}\) 成简单正比关系，设计一个反馈电压装置使得下一个状态的电压是在前一个状态电压下的迭代。</p>
+
+<p>反馈电压的迭代公式:
 \(V_{n+1} = C_{1} I_{\text{out}} + C_{2} V_{n}\)</p>
 
-<h4 id="理论建模">理论建模</h4>
-<p>假设电场使液晶分子轴方向偏转角度 \(\theta\)，随电压 \(V\) 变化关系为：
-\(\theta = \begin{cases} 0 &amp; V \leq V_{th} \\ \frac{\pi}{2} - 2 \tanh\left[\exp\left(\frac{V_{th}-V}{V_{0}}\right)\right] &amp; V &gt; V_{th} \end{cases}\)</p>
+<p>其中，\(C_{1}\) 和 \(C_{2}\) 均为常数，根据实验要求进行设计和调整，\(n\) 为迭代次数。</p>
 
-<p>最后形成了完整的混沌体系模型：
+<p>反馈电压是一个与输出光强和前一状态外界电压有关的函数，通过输出光强的变化反映了液晶透射率的变化，从而体现出液晶在前一状态电压驱动下的空间排列的变化。进而，我们将这一反映液晶状态的电压函数再施加给该液晶，从而在后续的混沌系统构建中表征了液晶本身的性质。</p>
+
+<p>由于液晶具有双稳态性质，即在不同的电场条件下，液晶分子可以具有两种稳定的排列方式。施加反馈电压可以使液晶从一个稳定状态转变到另一个稳定状态，或者在这两种状态之间产生跃迁。这种状态切换和跃迁过程中可能出现混沌行为。</p>
+
+<h4 id="理论建模">理论建模</h4>
+<p>假设电场使液晶分子轴方向偏转一个角度 \(\theta\)，\(\theta\) 随电压 \(V\) 变化的函数为[[16]]:
+\(\theta = \begin{cases} 0 &amp; \text{when } V \leq V_{th} \\ \frac{\pi}{2} - 2 \tanh\left[\exp\left(\frac{V_{th}-V}{V_{0}}\right)\right] &amp; \text{when } V &gt; V_{th} \end{cases}\)</p>
+
+<p>其中 \(V_{th}\) 是间值电压，\(V_{0}\) 是饱和电压。平行于分子长轴的折射率为 \(n_{\|}\)，垂直方向的折射率为 \(n_{\perp}\)。随着分子轴方向的旋转，根据折射率得出入射光偏振方向上的折射率为:
+\(n(e) = n(\theta) = \frac{n_{\|} n_{\perp}}{\sqrt{n_{\perp}^{2} \cos^{2} \theta + n_{\|} \sin^{2} \theta}}\)</p>
+
+<p>把液晶盒看作一个相位延迟片，可以得到液晶盒（平行面排列）的琼斯矩阵[[15]]:
+\(J = \begin{bmatrix} 1 &amp; 0 \\ 0 &amp; e^{-i \delta} \end{bmatrix}\)</p>
+
+<p>其中，\(\delta = \frac{2 \pi \Delta n}{\lambda}\)，\(\Delta n = n(e) - n(o)\)。\(\Delta n\) 是双折射率，它与温度的关系为[[17]]:
+\(\Delta n(T) = \Delta n_{0}\left(1-\frac{T}{T_{c}}\right)^{\beta}\)</p>
+
+<p>\(\Delta n_{0}\) 是液晶在绝对零度下的双折射率，\(T_{c}\) 是液晶的临界温度，\(\beta\) 是液晶的物理特性，可以通过实验测得。</p>
+
+<p>定义 \(I_{\text{in}}\) 是入射的偏振光的光强，经过电机旋转的偏振片后有:
+\(I_{\text{in}} = I_{0} \cos^{2} \omega \Delta t\)</p>
+
+<p>设置计算机计算的反馈公式为:
+\(V_{n+1} = C_{1} I_{\text{out}} + C_{2} V_{n}\)</p>
+
+<p>设起偏器、验偏器的透光轴与X轴的夹角分别为 \(\alpha\) 和 \(\beta\)，液晶的相位延迟为 \(\delta\)，从验偏器射出的偏振光的琼斯矩阵为:
+\(E_{\text{out}} = \begin{bmatrix} E_{\text{outx}} \\ E_{\text{outyy}} \end{bmatrix} = J_{A} J_{C} E_{i} = \frac{E_{\text{in}}}{2} \begin{bmatrix} \cos \beta \cos \alpha + \sin \beta \sin \alpha e^{-i \delta} \\ -\sin \beta \cos \alpha + 2 \sin \alpha \cos \beta e^{-i \delta} \end{bmatrix}\)</p>
+
+<p>其中 \(E_{i} = \begin{bmatrix} E_{\text{in}} \cos \alpha \\ E_{\text{in}} \sin \alpha \end{bmatrix}\) 是光线经过起偏器的琼斯矩阵。</p>
+
+<p>\(J_{C} = \begin{bmatrix} 1 &amp; 0 \\ 0 &amp; e^{-i \delta} \end{bmatrix}\) 是液晶的琼斯矩阵。</p>
+
+<p>\(J_{A} = \begin{bmatrix} \cos \beta &amp; \sin \beta \\ -\sin \beta &amp; \sin \beta \end{bmatrix}\) 是验偏器的琼斯矩阵。</p>
+
+<p>所以，由验偏器射出的光强为:
+\(I_{\text{out}} = \left|E_{\text{out}}\right|^{2} = I_{\text{in}} \left|\begin{array}{c} \cos \beta \cos \alpha + \sin \beta \sin \alpha e^{-i \delta} \\ -\sin \beta \cos \alpha + 2 \sin \alpha \cos \beta e^{-i \delta} \end{array}\right|^{2}\)</p>
+
+<p>其中 \(\omega\) 是电机控制的偏振片旋转的角速度，\(\Delta t\) 是开始测量之后的时间间隔。最后形成了一个完整的混池体系:
 \(\begin{cases} I_{\text{out}} = I_{\text{in}} \left|\begin{array}{c} \cos \beta \cos \alpha + \sin \beta \sin \alpha e^{-i \delta} \\ -\sin \beta \cos \alpha + 2 \sin \alpha \cos \beta e^{-i \delta} \end{array}\right|^{2} \\ \delta = \frac{2 \pi \Delta n}{\lambda} \\ \Delta n(T) = \Delta n_{0}\left(1-\frac{T}{T_{c}}\right)^{\beta} \\ V_{n+1} = C_{1} I_{\text{out}} + C_{2} V_{n} \\ I_{\text{in}} = I_{0} \cos^{2} \omega \Delta t \end{cases}\)</p>
 
-<h2 id="实验结果">实验结果</h2>
+<h2 id="结果">结果</h2>
 
-<h3 id="1-计算机仿真">1. 计算机仿真</h3>
-<p>基于以上模型，我们分别仿真出了周期态和混沌态的液晶光学状态：</p>
+<h3 id="计算机仿真">计算机仿真</h3>
+<p>基于以上光学混沌系统模型的构建，我们分别通过计算机仿真出了周期态和混沌态的液晶光学状态：</p>
+
+<p>周期态计算机仿真结果如图5(a)-(c)所示。通过周期态的傅里叶变换的频谱我们可以明显看到输出光强在两个不同大小的频率中具有特征峰，而在其他频率范围中几乎没有输出光强，因此我们可以判定这是一个双周期态。相图和时序图也展示出这是周期态。</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -372,7 +462,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="周期态计算机仿真结果" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/5.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 5" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -380,6 +470,8 @@
 
     </div>
 </div>
+
+<p>混沌态计算机仿真结果如图6(a)-(c)所示。通过混沌态的傅里叶变换的频谱我们可以明显看到输出光强除了有两个不同大小的频率的特征峰以外，其他频率范围中也存在这大小不一的输出光强。结合相图可以发现光强有填满整个区域内的趋势，时序图中也表现出了每个周期的特征峰值，因此这是一个双吸引子混沌态。</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -393,7 +485,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/6.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="混沌态计算机仿真结果" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/6.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 6" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -402,8 +494,12 @@
     </div>
 </div>
 
-<h3 id="2-液晶电光效应机理探究">2. 液晶电光效应机理探究</h3>
-<p>液晶具有“光开关”特性。阈值电压 \(V_{th}\) 定义为透过率为 \(90\%\) 时的驱动电压。实验中观察到在方波电压作用下，输出光强存在明显的振荡和滞后性（图 7）。</p>
+<h3 id="液晶的电光效应机理探究">液晶的电光效应机理探究</h3>
+<p>在没有电场的情况下，向列相液晶的棒状分子倾向于按特定方向排列，称为“定向”。这种排列可以导致特定的光学特性，如双折射率，影响光通过材料的方向和大小。当外加电场作用于液晶材料时，棒状分子的排列可以被电场操纵，分子倾向于与电场线平行排列，电场与液晶分子相互竞争。根据电场的强度和方向，分子可以部分地或完全地沿着电场方向重新定向。当液晶分子响应外加电场重新定向时，液晶材料的总折射率发生变化。折射率的变化会影响光通过材料的情况。通过仔细控制电场，可以控制光的偏振和透射，导致光传感器中呈现出不同的图案，映射着液晶产生的不同的光学行为。这一效应也可以在液晶显示器中创建图案，图像和文本。分子重新定向的程度也因此与外加电场的强度成正相关。这允许通过调整施加到特定强度的电压来精确控制液晶显示的不同区域的透明度和不透明度。</p>
+
+<p>液晶具有“光开关”的特性，即液晶透射率存在阈值电压和关断电压。阈值电压的定义为液晶透过率为90％时的驱动电压；关断电压的定义为液晶透过率为10％时的驱动电压。在阈值电压处，外界电压的大小达到平衡液晶弹性恢复力的大小，从而开始扭转液晶角度，从而导致液晶透射率的变化；进而，液晶扭转力也在不断增加，与外界电压保持动态平衡的状态直至电压足够大，开始主导液晶的排列方向。</p>
+
+<p>然而，由于液晶具有弹性恢复的性质，因此在施加外界电场后存在重新定向时间响应，响应时间从亚毫秒到数十毫秒不等，如图7(a)(b)所示。图中可以很明显观察到在方波电压开始变化的时候，输出光强存在一定的振荡和滞后性，这与液晶弹性恢复力以及计算机记录数据的延迟都有关系，这也是光学混沌产生的重要条件。</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -417,7 +513,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/7.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="时间响应曲线" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/7.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 7" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -426,7 +522,8 @@
     </div>
 </div>
 
-<p>在直流电压驱动下，不同温度下的输出光强形态如图 8 所示。可以发现，在 \(25^\circ\mathrm{C}\) 和 \(48^\circ\mathrm{C}\) 下，液晶的回弹速率和振荡幅度表现出明显差异。</p>
+<h4 id="液晶盒在直流电压驱动下的电光效应曲线">液晶盒在直流电压驱动下的电光效应曲线</h4>
+<p>本实验首先在不同温度下给液晶施加了2V - 8V的电压对液晶分子特有的振荡特性进行了探究。当施加直流电压时，由于电场与液晶分子间的相互作用会产生图8中振荡的现象。在(a)中施加8V - 4V的电压时可以看到在较小时间范围会存在一个上下起伏的输出光强大小，这一时间范围随着电压每隔1V的减少而缩短并且左移；同时振幅也随着电压的减小而增大。在(b)中由于微小电压的变化对液晶行为的影响更为显著，于是采取了更为狭小的电压间隔，每减小0.25V测一组输出光强形态。可以看到从3.75V - 2V的电压减小过程中，存在振荡振荡振幅不断减小直到保持全透光常亮的状态。同时可以发现在2.75V附近的光强振荡最明显，拥有两个明显的波峰。对比(a)(b)图可以看到在5V之后输出光强的起始点由常亮的75％（为了观察到输出光强的振荡现象而通过调节p1进行减光防止过曝）状态减小成了&lt;10％，这体现了液晶存在阈值电压和关断电压的特性。</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -440,7 +537,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/8.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="直流驱动下的电光曲线" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/8.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 8" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -449,10 +546,129 @@
     </div>
 </div>
 
-<h3 id="3-光学混沌状态分析">3. 光学混沌状态分析</h3>
+<p>同理，在48℃时我们对液晶进行了相同步骤的测量，发现在较高温度下液晶的振荡特性发生了一定变化。相对于室温25℃下的实验曲线，可以看到液晶在较高温度48℃时的回弹速率更快。并且观察到在25℃下2.5V电压施加的情况下液晶振荡明显不如48℃2.5V电压的振荡幅度。我们解释为液晶的粘度随温度的变化而变化。</p>
 
-<h4 id="双周期态">双周期态</h4>
-<p>当光强大小在非振荡区间时，系统表现为双周期态。其特征是两个相邻的峰高度不一致（图 13）。</p>
+<p>当施加电场时，在较高温度下较低的粘度通常允许液晶分子更快地重新定向，也就导致了图8(c)(d)中所示的结果。不过这可能会影响透光率变化的速度，但不一定会对透光率大小产生明显影响。由于液晶是介于固体和液体之间的一种特殊相态,具有液体流动性和晶体整齐排列的双重特性。在低温时,液晶分子之间会形成较强的相互作用力,使它们保持一定的定向排列,体现出类似晶体的性质。温度升高时,液晶分子的热运动加强,相互作用力减弱,定向排列被破坏,呈现出类似液体的无序状态。因此,从整体上看,升高温度会使液晶的有序性下降,向无序状态过渡。</p>
+
+<p>但需要注意的是,液晶有多个相变温度,在不同温度区间,液晶的有序程度可能出现非单调变化。在临界温度附近,液晶有可能由无序相变为有序相。但在本文涉及的温度范围内,液晶分子无序性随温度上升而增强。这些状态之间的转变会影响透光性能。同时液晶的双折射(沿着材料不同轴的折射率差异)可能与温度有关。这是一个关键参数，影响液晶调制光的程度，从而影响其透射率。</p>
+
+<p>在大电压下，液晶分子的取向逐渐与电场方向一致，即逐渐失去了旋光特性，因为检偏器与起偏器成正交，此时输出光强信号微弱。这个过程是非常迅速的。然而图8(a)-(d)中的反弹表明了液晶分子在逐渐摆脱外电场的影响。说明液晶盒内部出现了和外电场相抵消的力，这很有可能是液晶盒的挠曲电效应导致。因为在外加电压的作用下介电效应和挠曲电效应同时影响液晶指向矢的分布而且它们的作用是相反的[[13]]，而且液晶分子本身的范德华力也在被瞬间拉扯后逐渐恢复。表现在外就是液晶盒的旋光效应部分恢复，使得输出光旋转角度后与检偏器偏振方向上的分量增加。体现在图8中就是输出光强在短时间内发生了反复大小的变化。</p>
+
+<p>分析图9可分为五段光强类型，在加载直流电压-15V～-9V，8V～15V两段，透射光强几乎不受时间影响，在该段电压处于常暗状态，相当于光开关的关闭状态。在-2V～2V段，透射光强也不能体现时间和电压的作用，处于长亮状态，相当于光开关的开启状态。</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/chaos/9-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/chaos/9-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/chaos/9-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chaos/9.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 9" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p>在图8中所示电压作用下，随着时间的增加，液晶的透过率发生了反弹。我们知道，在大电压下，液晶分子的取向逐渐与电场方向一致，即逐渐失去了旋光特性，因为检偏器与起偏器成正交，此时输出光强信号微弱。这个过程是非常迅速的。</p>
+
+<p>上文分析过这种振荡是由于椭圆偏振光所引起的。在电压不大的情况下，由于起偏器与液晶上表面存在夹角，旋光后的比例与不参与旋光的比例可能相差不大，在投射液晶后形成椭圆偏振光，椭圆偏振光的等效光轴在2-3V附近区域存在摆动的情况，所以会产生振荡的曲线。后面利用液晶的双稳特性从周期态走向混沌的过程中，就利用并放大了这个振荡现象。</p>
+
+<h4 id="液晶盒在正向锯齿波电压驱动下的电光效应曲线">液晶盒在正向锯齿波电压驱动下的电光效应曲线</h4>
+<p>液晶在加载正向锯齿波的电压后表现出的电光特性不仅是非线性的，还存在暂态和最终稳态,如图10所示。在周期性渐升波电压的驱动下，大约3.5S以后，就进入一个稳定状态。图10(c)(d)为(a)的第一个周期和最后一个周期。时域图中显示了调制曲线的次峰是一个自然指数的衰减过程，而主峰则是逆指数的增长过程。对比(c)(d)可以看出主峰的位置发生了向右的偏移。产生这种现象的原因与液晶的弹性有关，可以认为次峰与主峰的产生就是挠曲电效应和介电效应此消彼长的过程。图10(b)表示了当维持一个电压持续3.5s的过程中液晶内部的“对抗力”或者说恢复原状的“弹力”是逐渐增加的，但是在电信号输入的情况下，可以看出次峰逐渐消失，主峰逐渐增强，整条曲线在3.5s后达到稳定，说明交流电信号能明显降低液晶的弹性恢复能力，而越低频的电信号下液晶的“弹性恢复”就越明显。</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/chaos/10-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/chaos/10-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/chaos/10-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chaos/10.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 10" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p>基于此现象我们解释：液晶的弹性恢复始终存在，但是恢复所需的时间是级的而电光效应的反应时间是级的，在高频变化的电信号作用下，电光效应占据主导地位，弹性恢复可忽略不计。但当输入中低频交流电信号时，两者的作用将有一个此消彼长的对抗过程。若加一段直流信号让其恢复状态则这一过程可以重复反复发生。</p>
+
+<h4 id="液晶盒在正弦波电压驱动下的电光效应曲线">液晶盒在正弦波电压驱动下的电光效应曲线</h4>
+<p>分析图11 (a)(b)(c) 可以看到，图像的山顶平台在随着频率的变大逐渐变窄，同时两个图像在彼此接近，在y轴附近逐渐重合；(d)(e)(f)可以看出在频率从0.5变大到1Hz的时候，首先是波形逐渐变成了尖顶，类似正弦波的样子，其次就是两个图像又在慢慢离开；同时整体光强均下降。</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/chaos/11-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/chaos/11-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/chaos/11-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chaos/11.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 11" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p>更值得注意的是，在交流电压频率较慢时，在图中(a)(b)(c)观察到了：“猫耳朵”现象，而且对应的阈值电压不尽相同。我们都知道，这个“猫耳朵”现象在上文里分析过，是由于在阈值电压处的振荡引起的，其物理机制是由于出射椭圆偏振光等效光轴在阈值电压处的摆动引起的。而当正弦交流电压变化频率增大时，这个猫耳朵就不明显甚至渐渐消失了。说明高频率的电压调制下，等效光轴的自发转动效果逐渐不明显甚至消失，可以理解为电压在拨动等效光轴时占据了绝对主导地位，在阈值电压处的自发转动被抑制，所以观察不到“猫耳朵”现象。</p>
+
+<p>在图12中，我们保持电压振幅为10V下，P2P3偏振正交的条件下改变温度从30℃测量到50℃，测量输出电压与输出光强的关系。图12(a)(b)中可以观察到在保持频率不变的情况下，发现在30℃到50℃升温过程中“猫耳朵”相互远离，而输出光强存在非单调的增长趋势。这说明温度在阈值电压处振荡的过程中存在影响液晶分子取向而导致出射椭圆偏振光等效光轴变化，进而导致其与阈值电压处摆动的耦合存在另一振荡。图12(b)中0.5Hz下本身“猫耳朵”现象已经消失，然而在温度的增加下又重新出现该现象，说明纵使在高频率的电压调制下，等效光轴的自发转动效果逐渐不明显甚至消失，即电压在拨动等效光轴时占据了绝对主导地位，在阈值电压处的自发转动被抑制，由于温度的作用却会导致液晶等效光轴粘性减弱从而促进自发转动的，导致削弱电压的主导地位，从而使“猫耳朵”现象复现。</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/chaos/12-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/chaos/12-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/chaos/12-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chaos/12.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 12" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="电机驱动下的液晶光学混沌">电机驱动下的液晶光学混沌</h3>
+<p>前文已知液晶在无电压环境下已具有双稳态，那么为了实现系统走向混沌，也就是围绕两个稳态发生振荡，就需要用到低频变化的电压信号，使得液晶内部分子取向不完全决定于单一量（高频电压信号下液晶的弹性恢复可以忽略，故应采用低频变化的电压信号）。</p>
+
+<p>当光从激光器发出时，通过固定偏转片P1，变为线偏振光，线偏振光再通过可转动偏振片P2时，入射光的偏振态与强度都发生了变化。而上文分析过，对液晶盒而言，当入射光与液晶盒前表面的取向膜存在夹角时，入射光可以分解为两个分量。一个分量是平行于液晶盒取向的，它会受到液晶的旋光特性的影响，导致偏振方向发生改变。另一个分量是与液晶取向垂直的，它将直接穿过液晶盒，偏振方向不会改变。因此，出射光将是这两个分量的合成，形成椭圆偏振光。</p>
+
+<p>与此同时，椭圆偏振光的长轴取向以及长短轴的长度并不是固定不变的。当施加在液晶盒上的反馈电压足够大时，光波导被拉直，旋光效应消失。而当反馈电压足够小时，输出光强的振荡不会发生。这是因为电场的强度会影响液晶分子的排列方式，进而影响椭圆偏振光的性质。当电场足够大时，液晶分子排列趋于电场方向排列，导致椭圆偏振光的特性变为线性偏振或者非偏振光。因此，通过控制反馈电压的大小，可以实现液晶光学器件的光学调制和控制。</p>
+
+<p>因此本实验中我们将液晶盒外界电压设置为迭代公式：
+\(V_{n+1} = C_{1} I_{\text{out}} + C_{2} V_{n}\)</p>
+
+<p>我们在实验过程中，发现单周期、双周期和混沌态等光学现象是在输入光强达到一定的强度后与反馈电压在液晶上产生不同的耦合行为所导致，于是我们可以具体去分析每个现象产生的原因。由于输入光强需要达到一定阈值才会与液晶的作用更加复杂，于是会导致混沌现象的产生，因此我们把这种会产生混沌的强光强区间称之为“振荡区间”，把不会产生混沌的弱光强区间称为“非振荡区间”。</p>
+
+<p>当光强大小在非振荡区间时，由于我们输入的反馈电压具有自身迭代的周期性，其周期行为与电机转动产生的周期相叠加就产生了双周期。如果反馈公式产生的与电机转动产生的峰谷值出现的时间相同，周期也相同，那么就会进入单周期。双周期的图像特征是两个相邻的峰高度不一样，而单周期在时序图中则显示单一峰值。双周期态相图、时序图和频谱如图13(a)-(c)所示</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -466,7 +682,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/13.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="双周期态结果" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/13.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 13" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -475,8 +691,9 @@
     </div>
 </div>
 
-<h4 id="混沌态">混沌态</h4>
-<p>当反馈电压与输入光强在振荡区间耦合时，系统进入混沌态。相图中运动轨迹局部不稳定，但全局拘束在双稳态区域内（图 15）。</p>
+<p>双周期具有一高一低两个不同大小的峰值，当双周期中较高的光强峰值达到了进入振荡区间所需光强范围，而较低光强峰值没有进入时，则会进入阵发混沌态，如图14所示。此时光强相图会表现出周期态和混沌态并存的情况，在时序图中则会表现为存在一个峰值不变的光强和一个发生密集振荡的光强。阵发混沌态表现出时而混沌，时而周期的状态。其形成是由于双周期一高一低两个不同大小的峰值中较高的光强峰值达到了进入“振荡区间”所需光强范围，而较低光强峰值没有进入。该状态处于周期态与混沌态之间，因此被限定在很小的初始光强调节范围，轻微的外界变化都可能使其向周期态或混沌态转变。</p>
+
+<p>当双周期的两个高低光强峰值都达到了振荡周期的光强区间，则整体系统进入混沌态,如图15所示。此时整个系统呈现周期性的密集光强峰值分布。可以看出来它有一个特征峰，且有连续功率谱，这表明它是一个混沌态。具有混沌特征的运动的相图中运动轨迹局部不稳定,但全局拘束在一个范围内，图中的相图中可以看到它始终没有走出双稳所框定的区域。而且围绕上下两个稳态，相图里输出光强的轨迹线反复在高输出和低输出之间横跳，且相比双稳态时最高的输出位置的距离与最低输出位置的距离每次都不尽相同，有的超过了有的没有达到，也就是说，围绕着双稳态的上下个输出状态，混沌图像中的输出光强具有随机性，每次距离最高输出和最低输出的距离都有差别，甚至可能在中途就往返。</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -490,7 +707,31 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/15.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="混沌态实验结果" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/15.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 15" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="电机-温度驱动下液晶光学混沌">电机-温度驱动下液晶光学混沌</h3>
+<p>当我们在输入反馈电压的同时，在常温下将偏振片角度调至振荡区间，输出光强的时域图显示了图像处于密集振荡分布的混沌态；与此同时，我们开始使用制热片加热液晶盒温度，使其一直处于混沌。我们发现当温度升高到55℃以前一直保持混沌状态；在55℃到60℃时，输出光强的状态从混沌态变为了准周期态，；进而随着温度的继续升高，输出光强从61℃开始变为周期态，同时输出光强的大小也有所减小。我们解释首先由于液晶在高温环境下无序度增加，导致其总透射率降低，使得光强峰值退出前文提到的“振荡区间”，于是得到了图16中的结果。而当温度重新下降的时候输出光强又会重新进入了混沌，说明只要在温度没有超过液晶分子的破坏上限，液晶的自恢复能力和弹性与外界温度的激励作用有关。</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/chaos/16-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/chaos/16-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/chaos/16-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/chaos/16.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 16" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -501,20 +742,57 @@
 
 <h2 id="讨论与未来展望">讨论与未来展望</h2>
 
-<p>本文通过构建一套混合型电光双稳系统，测得了 \(40^\circ\) 扭曲向列相液晶盒的电光效应和时间响应。我们发现，温度、电压频率和反馈系数是控制系统在周期态与混沌态之间转换的关键因子。</p>
+<p>本文通过构建了一套简单易操作的光路首先测得了40度扭曲向列相液晶盒电光效应和时间响应曲线，观察到液晶存在弹性恢复能力，但交流电信号能明显降低其弹性恢复能力，弹性恢复可忽略不计；而越低频的电信号下液晶的“弹性恢复”就越明显。弹性恢复表现为输出光强大小随时间逐渐恢复。该行为在直流电压与液晶扭转力相对平衡位置最为明显，大约为2-4V。</p>
 
-<p>未来，我们期望基于该理论模型设计出一套线上仿真平台，以忽略外界环境干扰，降低实验成本，使非线性光学的研究更具普适性。</p>
+<p>直流电压驱动下阈值电压和关断电压的数值，大致为2.5V和10.5V。在该电压范围内，输入光强不变的情况下，输出光强发生振荡。正向锯齿波电压驱动下出现主峰和次峰，次峰与主峰的产生是挠曲电效应和介电效应此消彼长的过程，即液晶表现出一定的弹性，而越低频的电信号下液晶的“弹性恢复”就越明显，电光效应是非线性且存在“暂态”和“稳态”，液晶分子恢复原状的“弹力”是逐渐增加的。正弦波电压驱动下，交流电频率影响液晶的阈值电压和输出光强大小，在较小交流电频率下电光曲线出现“猫耳朵”的现象，对应电压为该交流电频率下的液晶阈值电压。在高频率交流电调制下，“猫耳朵”消失。液晶等效光轴的自发转动效果逐渐不明显甚至消失，可以理解为电压在与液晶弹性恢复力的竞争中占据了绝对主导地位，因此液晶在阈值电压处的转动被抑制。</p>
+
+<p>此外，温度的变化会影响液晶阈值电压的大小和输出光强的大小，升温过程中，液晶分子的无序状态逐渐增强，导致透射率减小，从而表现出输出光强减小；同时“猫耳朵”会呈现出减小至消失的过程，这反映出液晶的阈值电压变小直至消失。本质上说明了温度影响了液晶分子的排列状态和弹性恢复能力。液晶存在“光开关”的阈值电压，在该电压值附近液晶存在扭转振荡行为，此时施加反馈电压，通过电机带动偏振片周期性地改变入射光强的大小可以控制液晶的光学状态，如周期态、阵发混沌态和混沌态。本实验液晶测得的阈值电压为~3.5V，关断电压为~10.5V。温度可以影响液晶的空间排列、弹性恢复力和双折射率，从而也可以通过改变温度控制液晶诱发液晶周期态向混沌态的转变。我们基于液晶的影响因素和条件构造的了理论模型和反馈电压公式，分别从计算机仿真和实验物理两方面展现了光学混沌的产生。</p>
+
+<p>光学混沌相较与传统的电学混沌和力学混沌存在更多的自由度。然而与之俱来的就是更加难以理解和控制。然而本文以液晶这一天生的光学双稳材料为基础构建了一套光路并推导出了光学混沌模型，提供了电机转速、电压、温度和采样率等可以调节的参量，从而为研究液晶电光效应和光学混沌实现了一台多用的实验平台。同时由于实验仪器和材料普遍存在与大学物理实验室中，因而极具推广意义。同时，我们在建立液晶光学混沌模型的过程中完善了前人关于液晶性质的研究，在模型中考虑了更多与液晶性质相关的外界影响因子，因此仿真出的光学混沌与实验测得的轮廓高度吻合，验证了我们模型的准确性。</p>
+
+<p>然而本实验还存在许多不足之处，例如由于光学混沌的初值敏感性，外界轻微的干扰就可能导致调制出不同状态的光学行为，同时光学仪器相对精密且价格昂贵，PASCO数据接口不一定能普及所有大学物理教学实验室，这限制了我们目前的实验场所、操作和受众范围。因此，基于我们的理论模型，我们认为可以设计出一套线上实验平台，从而可以忽略掉外界影响，同时实验成本更低，能得到更加广泛的应用，让我们能够更加直观地理解非线性的自然界变化。</p>
 
 <h2 id="参考文献">参考文献</h2>
 
-<p>[1] F. T. Arecchi, et al. <em>Atomic coherent states in quantum optics</em>. Phys. Rev. A, 1972.<br>
-[2] R. Bonifacio and L. A. Lugiato. <em>Cooperative effects and bistability</em>. Opt. Comm., 1976.<br>
-[3] M. J. Feigenbaum. <em>Quantitative universality for a class of nonlinear transformations</em>. J. Stat. Phys., 1978.<br>
-[4] H. Gibbs, et al. <em>Differential gain and bistability using Fabry-Perot interferometer</em>. Phys. Rev. Lett., 1976.<br>
-[5] K. Ikeda. <em>Multiple-valued stationary state and its instability</em>. Optics Comm., 1979.<br>
-[6] A. L. Lewis, et al. <em>Dynamics and chaos in an acousto-optic system</em>. J. Opt. Soc. Am. B, 1991.<br>
-[7] 张洪钧. 《光学混沌》. 上海科学教育出版社, 1997.<br>
-[8] J. P. Toomey, et al. <em>Secure communication using chaotic semiconductor lasers</em>. IEEE J. Quantum Electron., 2001.</p>
+<p>[1] F. T. Arecchi, E. Courtens, R. Gilmore, and H. Thomas. Atomic coherent states in quantum
+optics. Phys. Rev. A, 6(6):2211–2237, 1972.</p>
+
+<p>[2] R. Bonifacio and L. A. Lugiato. Cooperative effects and bistability for resonance fluorescence.pt. commm., 19:172, 1976.</p>
+
+<p>[3] M. J. Feigenbaum. Quantitative universality for a class of nonlinear transformations. J. Stat.Phys., 19(1):25–52, 1978.</p>
+
+<p>[4] H. Gibbs, S. L. McCal1, and T. N. C. Venkatesan. Differential gain and bistability using a
+sodium-filled fabry-perot interferometer. Phys. Rev. Lett., 36:1135, 1976.</p>
+
+<p>[5] K. Ikeda. Multiple-valued stationary state and its instability of the transmitted light by a ringcavity system. Optics Communications, 30(2):257–261, 1979.</p>
+
+<p>[6] A. L. Lewis, M. T. Turvey, and R. E. Shaw. Dynamics and chaos in an acousto-optic system.
+J. Opt. Soc. Am. B, 8(12):2396–2406, 1991.</p>
+
+<p>[7] E. N. Lorenz. Deterministic non-periodic flow. J. Atmos. Sci., 20(3):130–141, 1963.</p>
+
+<p>[8] M. C. Soriano, J. García-Ojalvo, C. R. Mirasso, and I. Fischer. Chaos control and synchronization in an optoelectronic oscillator with optical feedback. Phys. Rev. E.</p>
+
+<p>[9] J. P. Toomey, K. A. Shore, B. D. O. Anderson, and K. D. Choquette. Secure communication
+using chaotic semiconductor lasers. IEEE J. Quantum Electron., 37(3):343–351, 2001.</p>
+
+<p>[10] 何军, 张然, and 鲁兴海. 快速高双折射率向列相液晶的分子设计与模拟计算. 液晶与显示, 24.</p>
+
+<p>[11] 叶文江, 张志东, and 邢红玉. 平行排列液晶盒的挠曲电效应及一级 fr(e)edericksz 转变. 液晶与
+显示, 20(3):229–234, 2005.</p>
+
+<p>[12] 孙萍 and 尤秉信. 光学双稳与混沌实验. 物理实验, (9):1–6, 2010.</p>
+
+<p>[13] 廖延彪. 偏振光学. 科学出版社, 2003.</p>
+
+<p>[14] 张洪钧. 光学混沌. 上海科学教育出版社, 1997.</p>
+
+<p>[15] 王庆凯. 扭曲向列相液晶电光效应的研究, 2007.</p>
+
+<p>[16] 王思齐, 孟颖, and 高文莉. 不同取向的向列型液晶盒的光电响应曲线. 物理实验, 32(9):12–17,
+2012.</p>
+
+<p>[17] 白雅苏拉. 电光混合型双稳态系统和系统的不稳定性定性研究, 2009.</p>
 
 <h2 id="专业团队">专业团队</h2>
 
@@ -530,7 +808,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/chaos/17.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="206 实验室团队合影" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/chaos/17.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="图 17" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
