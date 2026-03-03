@@ -2,7 +2,7 @@
 layout: page
 title: 选读《哥白尼问题》
 description: 一些对于范式的思考
-img: assets/img/3.jpg
+img: assets/img/Copernicus.png
 importance: 2
 category: 学习内容
 ---
