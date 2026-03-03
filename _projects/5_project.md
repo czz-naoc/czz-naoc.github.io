@@ -1,80 +1,124 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: EGHAT
+description: 木卫二全球宜居性改造任务
+img: assets/img/eghat1.png
+importance: 4
+category: 学习内容
+math: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+> 2024年的夏天，沾了我本科生导师赵刚院士的光，也荣幸于行星环境与宜居性研究实验室 (PEARL) 的接纳，我成功进入 2024 年其行星科学夏令营的行列进行交流学习。我所分到的小组成员是截至当时，让我感受到最有契合感和和谐感的同龄人，他们为我带来的社交环境是前所未有的舒适。我们甚至为夏令营分配的木卫二宜居改造项目，煞有其事地命名为 **“EGHAT”**，并为此绘制了 Logo（图 1）。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## 1. 任务愿景：EGHAT 的诞生
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+这个命名非常有趣，它可以被拆解为 **“Egg + Hat”** (鸡蛋帽子)，相当形象地描绘了最终期望改造的木卫二景象：海洋覆盖赤道环带，两极是厚实的冰盖，很像顶着俩鸡蛋壳。
 
-<div class="row">
+**EGHAT** 全称为 **Europa Global Habitability Altering Task** (欧罗巴全球宜居性改造任务)。显然有些词汇是为了符合简称形式硬凑的，但似乎也说得过去。
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/eghat1.png" title="EGHAT Logo" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    图 1：EGHAT Logo。寓意为破冰的木卫二，冰帽像蛋壳一样覆盖两极。橙黄色线条表示氦氧混合大气，圆点表示在轨人造太阳。
 </div>
-<div class="row">
+
+实际上很多小组都只考虑了局部改造，但我往往有比较大的野心。在我提出的方案中，改造是全球性的——我们想把它改造成一个**极地星球**，固体表面覆盖着苔原生态系统，浅海则是冰海生态系统。我喜欢关心一些整体的、系统的、宏大的问题，尽管这在科学界容易被界定为“选题过大”。
+
+## 2. 物理背景：温和的水世界
+
+木卫二（Europa）是一颗和月球规模接近的天然卫星，表面被冰层覆盖，其下存在巨大的全球性海洋（图 2）。如果更早确认这种具备全球性液态水海洋的天体，我相信会催生出更多的科幻电影。
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/eghat2.png" title="木卫二冰壳剖面" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    图 2：木卫二冰圈和水圈剖面结构。海底热泉被认为是极有可能发现地外生命的位置。
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+为了产生环绕赤道的海洋，我们需要：**破冰**。考虑到成本，我们认为最简单的方式是**氢弹爆破**：在赤道环带冰层深处均匀布设氢弹并引爆。
 
+## 3. 巨构工程：人造太阳与气体输运
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+暴露海洋后，我们需要对整个卫星升温。我们引入了**在轨人造太阳**。
+*   **初期阶段**：三颗人造太阳呈等边三角形分布于低轨，融化坚冰并释放气态碳酸。
+*   **后期阶段**：保留一颗转移至 20h 逆自转方向高轨，模拟地球处的天然太阳。
+
+其动力源自**可控核聚变**。我们设想在木卫二与木星的 $$ L_1 $$ 点布设气体采集站，利用纳米材料管道从木星大气抽取燃料。经计算，维持极地生态系统均温所需氢气消耗量约 $$ 7160\ \mathrm{t/s} $$。这要求建设直径数十米、长达六十万公里的巨构管道。
+
+## 4. 大气改造：Heliox 系统
+
+我们设计了一种适宜人类呼吸的 **“heliox”** 氦氧混合大气（参考 Farahnaz et al. 2014）：
+*   $$ 79.7\% $$ 的 $$ \mathrm{He} $$
+*   $$ 20\% $$ 的 $$ \mathrm{O_2} $$
+*   $$ 0.3\% $$ 的 $$ \mathrm{CO_2} $$ (供植物生长)
+
+这种混合大气的平均分子量为 $$ \bar{M}_r = 14.314 $$。根据气体的玻尔兹曼分布关系：
+
+$$ P=P_{0}e^{-\frac{M_{r}gh}{RT}} $$
+
+若规定目标表面气压为 $$ 50.73\ \mathrm{kPa} $$，可求得大气厚度约为 $$ h_0 = 468\ \mathrm{km} $$。通过积分求得总大气质量 $$ M $$ 约为 $$ 1.044 \times 10^{13}\ \mathrm{t} $$：
+
+$$ M=\int_{0}^{h_{0}} \rho_{0} e^{-\frac{\bar{M}_{r} g h}{R T}} 4 \pi(h+R)^{2} d h $$
+
+依据热逃逸通量公式：
+
+$$ F=\frac{n v e^{-K}(1+K)}{2 \sqrt{\pi K}}, \quad K=\frac{G M_p m}{kRT} $$
+
+计算得出 $$ \mathrm{O_2} $$ 和 $$ \mathrm{CO_2} $$ 的热逃逸通量 $$ F \to 0 $$，而 $$ \mathrm{He} $$ 则需要通过木星采集站进行长期补充。
+
+## 5. 气候与生态模拟
+
+我们将改造后的设计均温定在 $$ 230\ \mathrm{K} $$。赤道约为 $$ 260\ \mathrm{K} $$，两极约为 $$ 200\ \mathrm{K} $$。由于 $$ \mathrm{CO_2} $$ 的沸点为 $$ 216.5\ \mathrm{K} $$，极地会出现“二氧化碳雪”。
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/eghat3.png" title="木卫二气候概念图" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    图 3：改造后的地理-大气地貌概念图，形成冷温带海洋性气候和极地气候。
 </div>
 
+在生态方面，投放苔原植被和南极磷虾。人类居住区则设计为**水下建筑**，以利用厚重的水层屏蔽木星强大的辐射（图 4）。
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/eghat4.png" title="居住基地方案" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    图 4：水下定居点设计，布局类似于地球南极科考站。
+</div>
+
+## 6. 宜居性评估：aESI 指标
+
+根据 Kashyap (2017)，地球相似指数 ESI 计算方式为：
+
+$$ \mathrm{ESI} = \prod_{i=1}^{n} \left(1 - \left| \frac{x_i - x_0}{x_i + x_0} \right| \right)^{w_i} $$
+
+我们引入自定义的 **“模糊 ESI” (aESI)** 进行评估：
+
+$$ \mathrm{aESI} = \left( 1 - \left| \frac{230\ \mathrm{K} - T}{230\ \mathrm{K} + T} \right| \right)^{5.78} \left( 1 - \left| \frac{P_{rot} - 1\ \mathrm{yr}}{P_{rot} + 1\ \mathrm{yr}} \right| \right)^{0.7} $$
+
+*   **改造前**：均温 $$ 102\ \mathrm{K} $$，$$ \mathrm{aESI} = 0.016 $$。
+*   **改造后**：均温 $$ 230\ \mathrm{K} $$，等效公转周期 $$ 1.78\ \mathrm{yr} $$，$$ \mathrm{aESI} = 0.86 $$。
+
+这意味着改造后的木卫二将达到相当高的宜居水平。
+
+## 结语
+
+尽管 EGHAT 方案在夏令营中因“不够科幻”没拿到最优设计，但我依然偏爱这种基于物理实证的务实设计。感谢 PEARL 平台，尤其是崔峻老师的鼓励，这成为我不断探索行星科学的动力源泉。
+
+---
+
+### 参考文献
+
+1. Hashemian SM, et al. *The use of heliox in critical care*. Int J Crit Illn Inj Sci. 2014.
+2. Ding, S., et al. *A high-density and high-confinement tokamak plasma regime for fusion energy*. Nature. 2024.
+3. Kashyap JM. *Quantitative indexing and Tardigrade analysis of exoplanets*. arXiv. 2017.
+4. Mendez, A. *Standard Planetary Habitability (SPH) of Global Land Areas*. 2009.
