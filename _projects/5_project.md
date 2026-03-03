@@ -6,6 +6,7 @@ img: assets/img/eghat1.png
 importance: 4
 category: 学习内容
 math: true
+giscus_comments: true
 ---
 
 > 很幸运能够遇到一群很有意思的朋友们。木卫二宜居性改造课题的完成很大一部分得益于谨睿的头脑风暴、文思泉涌，让我佩服不已。团队成员间的沟通很舒服，很久没有这么愉快的进行小组作业了，大家都非常nice，改造方案和项目汇报的成果在我心目中绝对是排No. 1。
