@@ -2,7 +2,7 @@
 layout: page
 title: 火星乌托邦平原浅表层结构与水冰活动研究
 description: 基于天问一号原位雷达探测与热物理模拟，探索火星现今地下水循环机制与地质演化
-img: assets/img/zhurong.jpg
+img: assets/img/zhurong.png
 importance: 1
 category: 研究工作
 ---
@@ -38,4 +38,11 @@ category: 研究工作
 *   **沉积层序分析**：通过雷达剖面识别地下分层结构，反推古代洪水、海洋或冰川活动的沉积历史。
 *   **古大型洪水事件假说验证**：探究该区域散落的沉积岩、板状岩石等地貌特征与地下水活动的潜在联系，为乌托邦平原洪水冲击沉积提供地球物理约束。
 
+---
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/fig4.png" title="火星浅表层水循环概念模型" %}
+    </div>
+</div>
 
