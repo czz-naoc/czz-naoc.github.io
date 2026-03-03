@@ -2,7 +2,7 @@
 layout: page
 title: 古希腊与同时期中国占星术发展的理论基础与文化观念比较
 description: 比较了古希腊与春秋战国时期中国占星术的理论基础和文化观念。
-img: assets/img/7.jpg
+img: assets/img/astrology.png
 importance: 3
 category: 学习内容
 ---
