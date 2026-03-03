@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 项目
+title: 研究
 permalink: /projects/
 lang: zh
 ref: reports
