@@ -260,46 +260,39 @@
           </div>
 
           <!-- News -->
-          <h2><a href="/news/" style="color: inherit;">最新动态</a></h2>          <div class="news">
-            <!-- 修改1：这里直接把 scrollable 设为 true，只要超过3条就显示滚动条 -->
-            <div class="table-responsive" style="max-height: 10vw">
-              <table class="table table-sm table-borderless">
-<!-- 修改2：删掉了复杂的 if/else 判断，直接在下面循环里写死 limit: 5 -->
-              
-                <tr>
-                  <th scope="row">Nov 27, 2025</th>
-                  <td>
-                    <a class="news-title" href="/news/announcement_3/">于中国科学院大学2025年度研究生学术论坛（天文交叉分论坛）作学术报告</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Nov 27, 2025</th>
-                  <td>
-                    <a class="news-title" href="/news/1123/">于第四届中国空间科学大会作学术报告</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Sep 27, 2025</th>
-                  <td>
-                    <a class="news-title" href="/news/announcement_1/">于2025北京大学天文学术研讨会作学术报告</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Sep 15, 2025</th>
-                  <td>
-                    开学快乐！(<em>^▽^</em>)！
+          <h2><a href="/news/" style="color: inherit;">最新动态</a></h2>
+<div class="news">
+  <!-- 逻辑判断部分 -->
+    
+       <!-- 如果配置文件没读到，默认主页显示3条 -->
+    
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Sep 4, 2025</th>
-                  <td>
-                    <a class="news-title" href="/news/0904/">赴喀什开展月球与火星雷达地面验证试验</a>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
+    <!-- 样式判断部分：只有在主页(include.limit为真)且数量超过限制时，才加滚动条高度 -->
+    <div class="table-responsive" style="max-height: 10vw">
+      <table class="table table-sm table-borderless">
+      
+      
+        <tr>
+          <th scope="row">Nov 27, 2025</th>
+          <td>
+            <a class="news-title" href="/news/announcement_3/">于中国科学院大学2025年度研究生学术论坛（天文交叉分论坛）作学术报告</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Nov 27, 2025</th>
+          <td>
+            <a class="news-title" href="/news/1123/">于第四届中国空间科学大会作学术报告</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Sep 27, 2025</th>
+          <td>
+            <a class="news-title" href="/news/announcement_1/">于2025北京大学天文学术研讨会作学术报告</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+</div>
 
 
           <!-- Latest posts -->
