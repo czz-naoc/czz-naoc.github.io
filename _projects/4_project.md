@@ -2,8 +2,8 @@
 layout: page
 title: 凌日巨行星透射光谱法仿真
 description: 模拟凌日过程中恒星光线穿过行星的大气层，使我们能够分析吸收特征并推断大气成分和结构。
-img: assets/img/12.jpg
-importance: 2
+img: assets/img/trans.png
+importance: 1
 category: 学习内容
 ---
 
