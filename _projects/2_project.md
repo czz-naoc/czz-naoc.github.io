@@ -3,8 +3,9 @@ layout: page
 title: 选读《哥白尼问题》
 description: 一些对于范式的思考
 img: assets/img/Copernicus.png
-importance: 2
+importance: 3
 category: 学习内容
+giscus_comments: true
 ---
 
 > 《哥白尼问题》同为2023年暑假我在上北京大学暑期学校时期朱孝远教授讲授的课中提到过的一本书，但是为了完成课程作业便尝试花了一段时间选读了这本书。还是像写下一篇占星术的文章一样，一年过后已经记不清书中所讲，但是在我的印象中这里面还存在着好些晦涩生硬的东西我没有能够透彻理解。这里是思考，也是疑惑。
