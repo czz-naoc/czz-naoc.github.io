@@ -1,5 +1,369 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://czz-naoc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://czz-naoc.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-04T02:27:36+00:00</updated><id>https://czz-naoc.github.io/feed.xml</id><title type="html">blank</title><subtitle>暢之之的个人主页
-</subtitle><entry><title type="html">a post with giscus comments</title><link href="https://czz-naoc.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://czz-naoc.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://czz-naoc.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://czz-naoc.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://czz-naoc.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://czz-naoc.github.io/blog/2022/redirect</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://czz-naoc.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://czz-naoc.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://czz-naoc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://czz-naoc.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-04T02:31:21+00:00</updated><id>https://czz-naoc.github.io/feed.xml</id><title type="html">blank</title><subtitle>暢之之的个人主页
+</subtitle><entry><title type="html">小狗第一次回村过年</title><link href="https://czz-naoc.github.io/blog/2025/xiaogou/" rel="alternate" type="text/html" title="小狗第一次回村过年" /><published>2025-02-22T00:00:00+00:00</published><updated>2025-02-22T00:00:00+00:00</updated><id>https://czz-naoc.github.io/blog/2025/xiaogou</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2025/xiaogou/"><![CDATA[<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/1436005996c50d91f4df6f9015594f67-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/1436005996c50d91f4df6f9015594f67-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/1436005996c50d91f4df6f9015594f67-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/1436005996c50d91f4df6f9015594f67.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/27ed937081b8b98c06993bceafd64c83-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/27ed937081b8b98c06993bceafd64c83-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/27ed937081b8b98c06993bceafd64c83-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/27ed937081b8b98c06993bceafd64c83.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/424aa5410ba8e1d0e9ec31a2a585ffcb-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/424aa5410ba8e1d0e9ec31a2a585ffcb-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/424aa5410ba8e1d0e9ec31a2a585ffcb-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/424aa5410ba8e1d0e9ec31a2a585ffcb.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/4576213843dcb6b9a41d2c2e12cc8325-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/4576213843dcb6b9a41d2c2e12cc8325-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/4576213843dcb6b9a41d2c2e12cc8325-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/4576213843dcb6b9a41d2c2e12cc8325.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/51b9b6b1013c5f141e3eb2794e698327-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/51b9b6b1013c5f141e3eb2794e698327-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/51b9b6b1013c5f141e3eb2794e698327-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/51b9b6b1013c5f141e3eb2794e698327.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/6e0888f55fdae1611c88e4e3a12faaf5-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/6e0888f55fdae1611c88e4e3a12faaf5-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/6e0888f55fdae1611c88e4e3a12faaf5-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/6e0888f55fdae1611c88e4e3a12faaf5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/8b976664631b0dae4035cf6a602ffdad-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/8b976664631b0dae4035cf6a602ffdad-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/8b976664631b0dae4035cf6a602ffdad-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/8b976664631b0dae4035cf6a602ffdad.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/b4639ffe22110ca6321aec9b93e7f9c6-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/b4639ffe22110ca6321aec9b93e7f9c6-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/b4639ffe22110ca6321aec9b93e7f9c6-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/b4639ffe22110ca6321aec9b93e7f9c6.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0222/fc6bcc3563bbe4a45a7722612683abbe-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0222/fc6bcc3563bbe4a45a7722612683abbe-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0222/fc6bcc3563bbe4a45a7722612683abbe-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0222/fc6bcc3563bbe4a45a7722612683abbe.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</div>]]></content><author><name></name></author><category term="龙傲天" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://czz-naoc.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://czz-naoc.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://czz-naoc.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://czz-naoc.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://czz-naoc.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://czz-naoc.github.io/blog/2022/redirect</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://czz-naoc.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://czz-naoc.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
 Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
 
 <p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
@@ -24,7 +388,7 @@ sequenceDiagram
 </code></pre></div></div>
 
 <div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1772591258845" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1772591258845 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1772591258845 .node circle,#mermaid-1772591258845 .node ellipse,#mermaid-1772591258845 .node polygon,#mermaid-1772591258845 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1772591258845 .node.clickable{cursor:pointer}#mermaid-1772591258845 .arrowheadPath{fill:#333}#mermaid-1772591258845 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1772591258845 .edgeLabel{background-color:#e8e8e8}#mermaid-1772591258845 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1772591258845 .cluster text{fill:#333}#mermaid-1772591258845 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1772591258845 .actor{stroke:#ccf;fill:#ececff}#mermaid-1772591258845 text.actor{fill:#000;stroke:none}#mermaid-1772591258845 .actor-line{stroke:grey}#mermaid-1772591258845 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1772591258845 .messageLine0,#mermaid-1772591258845 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1772591258845 #arrowhead{fill:#333}#mermaid-1772591258845 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1772591258845 .messageText{fill:#333;stroke:none}#mermaid-1772591258845 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1772591258845 .labelText,#mermaid-1772591258845 .loopText{fill:#000;stroke:none}#mermaid-1772591258845 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1772591258845 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1772591258845 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1772591258845 .section{stroke:none;opacity:.2}#mermaid-1772591258845 .section0{fill:rgba(102,102,255,.49)}#mermaid-1772591258845 .section2{fill:#fff400}#mermaid-1772591258845 .section1,#mermaid-1772591258845 .section3{fill:#fff;opacity:.2}#mermaid-1772591258845 .sectionTitle0,#mermaid-1772591258845 .sectionTitle1,#mermaid-1772591258845 .sectionTitle2,#mermaid-1772591258845 .sectionTitle3{fill:#333}#mermaid-1772591258845 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1772591258845 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1772591258845 .grid path{stroke-width:0}#mermaid-1772591258845 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1772591258845 .task{stroke-width:2}#mermaid-1772591258845 .taskText{text-anchor:middle;font-size:11px}#mermaid-1772591258845 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1772591258845 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1772591258845 .taskText0,#mermaid-1772591258845 .taskText1,#mermaid-1772591258845 .taskText2,#mermaid-1772591258845 .taskText3{fill:#fff}#mermaid-1772591258845 .task0,#mermaid-1772591258845 .task1,#mermaid-1772591258845 .task2,#mermaid-1772591258845 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1772591258845 .taskTextOutside0,#mermaid-1772591258845 .taskTextOutside1,#mermaid-1772591258845 .taskTextOutside2,#mermaid-1772591258845 .taskTextOutside3{fill:#000}#mermaid-1772591258845 .active0,#mermaid-1772591258845 .active1,#mermaid-1772591258845 .active2,#mermaid-1772591258845 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1772591258845 .activeText0,#mermaid-1772591258845 .activeText1,#mermaid-1772591258845 .activeText2,#mermaid-1772591258845 .activeText3{fill:#000!important}#mermaid-1772591258845 .done0,#mermaid-1772591258845 .done1,#mermaid-1772591258845 .done2,#mermaid-1772591258845 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1772591258845 .doneText0,#mermaid-1772591258845 .doneText1,#mermaid-1772591258845 .doneText2,#mermaid-1772591258845 .doneText3{fill:#000!important}#mermaid-1772591258845 .crit0,#mermaid-1772591258845 .crit1,#mermaid-1772591258845 .crit2,#mermaid-1772591258845 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1772591258845 .activeCrit0,#mermaid-1772591258845 .activeCrit1,#mermaid-1772591258845 .activeCrit2,#mermaid-1772591258845 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1772591258845 .doneCrit0,#mermaid-1772591258845 .doneCrit1,#mermaid-1772591258845 .doneCrit2,#mermaid-1772591258845 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1772591258845 .activeCritText0,#mermaid-1772591258845 .activeCritText1,#mermaid-1772591258845 .activeCritText2,#mermaid-1772591258845 .activeCritText3,#mermaid-1772591258845 .doneCritText0,#mermaid-1772591258845 .doneCritText1,#mermaid-1772591258845 .doneCritText2,#mermaid-1772591258845 .doneCritText3{fill:#000!important}#mermaid-1772591258845 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1772591258845 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1772591258845 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1772591258845 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1772591258845 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1772591258845 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1772591258845 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1772591258845 #compositionEnd,#mermaid-1772591258845 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1772591258845 #aggregationEnd,#mermaid-1772591258845 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1772591258845 #dependencyEnd,#mermaid-1772591258845 #dependencyStart,#mermaid-1772591258845 #extensionEnd,#mermaid-1772591258845 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1772591258845 .branch-label,#mermaid-1772591258845 .commit-id,#mermaid-1772591258845 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1772591258845 {
+  <svg id="mermaid-1772591485276" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1772591485276 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1772591485276 .node circle,#mermaid-1772591485276 .node ellipse,#mermaid-1772591485276 .node polygon,#mermaid-1772591485276 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1772591485276 .node.clickable{cursor:pointer}#mermaid-1772591485276 .arrowheadPath{fill:#333}#mermaid-1772591485276 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1772591485276 .edgeLabel{background-color:#e8e8e8}#mermaid-1772591485276 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1772591485276 .cluster text{fill:#333}#mermaid-1772591485276 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1772591485276 .actor{stroke:#ccf;fill:#ececff}#mermaid-1772591485276 text.actor{fill:#000;stroke:none}#mermaid-1772591485276 .actor-line{stroke:grey}#mermaid-1772591485276 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1772591485276 .messageLine0,#mermaid-1772591485276 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1772591485276 #arrowhead{fill:#333}#mermaid-1772591485276 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1772591485276 .messageText{fill:#333;stroke:none}#mermaid-1772591485276 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1772591485276 .labelText,#mermaid-1772591485276 .loopText{fill:#000;stroke:none}#mermaid-1772591485276 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1772591485276 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1772591485276 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1772591485276 .section{stroke:none;opacity:.2}#mermaid-1772591485276 .section0{fill:rgba(102,102,255,.49)}#mermaid-1772591485276 .section2{fill:#fff400}#mermaid-1772591485276 .section1,#mermaid-1772591485276 .section3{fill:#fff;opacity:.2}#mermaid-1772591485276 .sectionTitle0,#mermaid-1772591485276 .sectionTitle1,#mermaid-1772591485276 .sectionTitle2,#mermaid-1772591485276 .sectionTitle3{fill:#333}#mermaid-1772591485276 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1772591485276 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1772591485276 .grid path{stroke-width:0}#mermaid-1772591485276 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1772591485276 .task{stroke-width:2}#mermaid-1772591485276 .taskText{text-anchor:middle;font-size:11px}#mermaid-1772591485276 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1772591485276 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1772591485276 .taskText0,#mermaid-1772591485276 .taskText1,#mermaid-1772591485276 .taskText2,#mermaid-1772591485276 .taskText3{fill:#fff}#mermaid-1772591485276 .task0,#mermaid-1772591485276 .task1,#mermaid-1772591485276 .task2,#mermaid-1772591485276 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1772591485276 .taskTextOutside0,#mermaid-1772591485276 .taskTextOutside1,#mermaid-1772591485276 .taskTextOutside2,#mermaid-1772591485276 .taskTextOutside3{fill:#000}#mermaid-1772591485276 .active0,#mermaid-1772591485276 .active1,#mermaid-1772591485276 .active2,#mermaid-1772591485276 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1772591485276 .activeText0,#mermaid-1772591485276 .activeText1,#mermaid-1772591485276 .activeText2,#mermaid-1772591485276 .activeText3{fill:#000!important}#mermaid-1772591485276 .done0,#mermaid-1772591485276 .done1,#mermaid-1772591485276 .done2,#mermaid-1772591485276 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1772591485276 .doneText0,#mermaid-1772591485276 .doneText1,#mermaid-1772591485276 .doneText2,#mermaid-1772591485276 .doneText3{fill:#000!important}#mermaid-1772591485276 .crit0,#mermaid-1772591485276 .crit1,#mermaid-1772591485276 .crit2,#mermaid-1772591485276 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1772591485276 .activeCrit0,#mermaid-1772591485276 .activeCrit1,#mermaid-1772591485276 .activeCrit2,#mermaid-1772591485276 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1772591485276 .doneCrit0,#mermaid-1772591485276 .doneCrit1,#mermaid-1772591485276 .doneCrit2,#mermaid-1772591485276 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1772591485276 .activeCritText0,#mermaid-1772591485276 .activeCritText1,#mermaid-1772591485276 .activeCritText2,#mermaid-1772591485276 .activeCritText3,#mermaid-1772591485276 .doneCritText0,#mermaid-1772591485276 .doneCritText1,#mermaid-1772591485276 .doneCritText2,#mermaid-1772591485276 .doneCritText3{fill:#000!important}#mermaid-1772591485276 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1772591485276 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1772591485276 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1772591485276 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1772591485276 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1772591485276 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1772591485276 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1772591485276 #compositionEnd,#mermaid-1772591485276 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1772591485276 #aggregationEnd,#mermaid-1772591485276 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1772591485276 #dependencyEnd,#mermaid-1772591485276 #dependencyStart,#mermaid-1772591485276 #extensionEnd,#mermaid-1772591485276 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1772591485276 .branch-label,#mermaid-1772591485276 .commit-id,#mermaid-1772591485276 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1772591485276 {
     color: rgb(0, 0, 0);
     font: normal normal 400 normal 16px / normal "Times New Roman";
   }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
@@ -380,76 +744,4 @@ MathJax will automatically number equations:</p>
 
 <p>and by adding <code class="language-plaintext highlighter-rouge">\label{...}</code> inside the equation environment, we can now refer to the equation using <code class="language-plaintext highlighter-rouge">\eqref</code>.</p>
 
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="math" /><summary type="html"><![CDATA[an example of a blog post with some math]]></summary></entry><entry><title type="html">a post with code</title><link href="https://czz-naoc.github.io/blog/2015/code/" rel="alternate" type="text/html" title="a post with code" /><published>2015-07-15T15:09:00+00:00</published><updated>2015-07-15T15:09:00+00:00</updated><id>https://czz-naoc.github.io/blog/2015/code</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2015/code/"><![CDATA[<p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
-It supports more than 100 languages.
-This example is in C++.
-All you have to do is wrap your code in markdown code tags:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">c++
-</span><span class="n">code</span> <span class="n">code</span> <span class="n">code</span>
-<span class="p">```</span>
-</code></pre></div></div>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
-
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
-
-    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>By default, it does not display line numbers. If you want to display line numbers for every code block, you can set <code class="language-plaintext highlighter-rouge">kramdown.syntax_highlighter_opts.block.line_numbers</code> to true in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
-
-<p>If you want to display line numbers for a specific code block, all you have to do is wrap your code in a liquid tag:</p>
-
-<p>{% highlight c++ linenos %}  <br /> code code code <br /> {% endhighlight %}</p>
-
-<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
-Produces something like this:</p>
-
-<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td><td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
-
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
-
-    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></td></tr></tbody></table></code></pre></figure>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="code" /><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry></feed>
+<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="math" /><summary type="html"><![CDATA[an example of a blog post with some math]]></summary></entry></feed>
