@@ -2,7 +2,7 @@
 layout: page
 title: 高温下碱激发粉煤灰-矿渣浆体的多尺度微观结构演变
 description: 本项目探究了碱激发材料在20°C至800°C高温暴露下，从纳米凝胶到微米孔隙的多尺度结构损伤与演变机制。
-img: /assets/img/chaos/aafs.png
+img: /assets/img/aafs.png
 importance: 6
 category: 学习内容
 giscus_comments: true
