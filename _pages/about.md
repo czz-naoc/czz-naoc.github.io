@@ -8,7 +8,7 @@ subtitle: Hi friend! Welcome to the Moon, Mars, and Beyond
 
 profile:
   align: right
-  image: jcz.jpg
+  image: jcz2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>changzhijiang528@gmail.com</p>
