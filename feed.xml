@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://czz-naoc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://czz-naoc.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-07T11:06:23+00:00</updated><id>https://czz-naoc.github.io/feed.xml</id><title type="html">blank</title><subtitle>暢之之的个人主页
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://czz-naoc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://czz-naoc.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-07T11:08:56+00:00</updated><id>https://czz-naoc.github.io/feed.xml</id><title type="html">blank</title><subtitle>暢之之的个人主页
 </subtitle><entry><title type="html">我们仨</title><link href="https://czz-naoc.github.io/blog/2026/snow/" rel="alternate" type="text/html" title="我们仨" /><published>2026-03-04T00:00:00+00:00</published><updated>2026-03-04T00:00:00+00:00</updated><id>https://czz-naoc.github.io/blog/2026/snow</id><content type="html" xml:base="https://czz-naoc.github.io/blog/2026/snow/"><![CDATA[<p>随时保持联系。</p>
 
 <p>我知道你不会走，你知道我不会变。</p>
@@ -35,6 +35,10 @@
 
 <hr />
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  
+    
+  
+    
   
     
   
@@ -342,6 +346,10 @@
 
 <hr />
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  
+    
+  
+    
   
     
   
@@ -755,6 +763,28 @@
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0211/09daa279569a885b8c7dfc2ab639d4f3-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0211/09daa279569a885b8c7dfc2ab639d4f3-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0211/09daa279569a885b8c7dfc2ab639d4f3-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0211/09daa279569a885b8c7dfc2ab639d4f3.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0211/1b026273a6a6dc65f51ad7a6112ceabd-480.webp" />
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0211/1b026273a6a6dc65f51ad7a6112ceabd-800.webp" />
     <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0211/1b026273a6a6dc65f51ad7a6112ceabd-1400.webp" />
@@ -762,6 +792,28 @@
 
     <!-- Fallback to the original file -->
     <img src="/assets/img/0211/1b026273a6a6dc65f51ad7a6112ceabd.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+      </div>
+    
+  
+    
+      <div class="col">
+        <!-- 注意这里改成了 figure.html，且 path 处理了前面的斜杠 -->
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/0211/529914fb332954f56125bc96faa01b95-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/0211/529914fb332954f56125bc96faa01b95-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/0211/529914fb332954f56125bc96faa01b95-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/0211/529914fb332954f56125bc96faa01b95.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
