@@ -107,6 +107,10 @@
       year: 2023.03 - 2024.04
       description: 主持
 
+- title: 专利
+  type: time_table
+  contents:
+    - title: 丁春雨; 邱小航; 梁梓航; 蒋畅之；一种改进的测月雷达数据处理方法，2025, 中国, CN 202510547520.2
 
 - title: 荣誉
   type: time_table
